@@ -18,7 +18,7 @@ def send_email(message):
     
     msg = MIMEText(msg_str)
     
-    msg['Subject'] = 'Alpaca Trade Alert'
+    msg['Subject'] = 'Example message: Trade Alert!'
     msg['From'] = sender_email
     msg['To'] = receiver_email
     
